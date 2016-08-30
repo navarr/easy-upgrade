@@ -1,0 +1,24 @@
+{
+    "name": "navarr/easy-upgrades",
+    "description": "A simple trait to make it easier to upgrade things",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Navarr Barnier",
+            "email": "Navarr.Barnier@briteskies.com"
+        }
+    ],
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "EasyUpgrade\\": "src/"
+        }
+    }
+}
