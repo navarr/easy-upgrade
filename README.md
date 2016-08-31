@@ -20,7 +20,7 @@ In your class, `use CallableUpdateTrait;`, like so:
         
         public function somethingTriggeredExternally($currentVersion, $futureVersion)
         {
-            $this->runAt($currentVersion, '2.0.0', function() {
+            $this->runAt('2.0.0', $currentVersion, function() {
                 echo 'Hello, 2.0.0!',PHP_EOL;
             });
         }
